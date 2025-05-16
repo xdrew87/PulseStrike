@@ -1,77 +1,88 @@
-#PulseStrike - Lightweight C2 Stress Testing Tool
+# PulseStrike - Lightweight C2 Stress Testing Tool
 
-#Overview
-PulseStrike is a simple yet powerful Command & Control (C2) tool designed for stress testing your websites and servers. Easily simulate various attack methods to test your defenses and see if your infrastructure can handle real-world traffic scenarios.
+![PulseStrike Banner](https://img.shields.io/badge/PulseStrike-C2%20Stress%20Tool-green)
 
-This tool allows you to:
+## Overview
 
-Send multiple types of HTTP stress tests to your target URL
+PulseStrike is a simple yet powerful Command & Control (C2) tool designed for stress testing your websites and servers. Easily simulate various attack methods to test your defenses and evaluate your infrastructure's resilience.
 
-Monitor request logs in real-time via a sleek terminal UI
+This tool enables you to:
 
-View session info such as target URL, attack method, delay, and bandwidth used
+- Launch multiple HTTP stress tests against a target URL
+- Monitor requests and bandwidth usage in real-time via a sleek terminal UI
+- Quickly configure targets, methods, and delays from the interactive console
 
-Quickly start tests without complex CLI commands — all from the interactive terminal interface
+> **Disclaimer:** Use PulseStrike only on servers and websites you own or have explicit permission to test. Unauthorized use is illegal and unethical.
 
-Note: This tool is intended for ethical testing on servers and websites you own or have explicit permission to test. Do not use it for unauthorized attacks.
+---
 
-#Features
-Multiple stress test methods (HTTP floods, randomized user agents, etc.)
+## Features
 
-Real-time request log and bandwidth output
+- Multiple stress test methods (GET, POST, headers flooding, etc.)
+- Real-time request log with bandwidth statistics
+- Animated ASCII art banner and hacker-style terminal UI
+- Cross-platform compatibility (Windows, Linux, macOS)
+- Easy extensibility for custom attack methods
 
-Animated ASCII art banner and hacker-themed terminal UI
+---
 
-Simple input prompts for target URL, attack method, and delay
+## Installation
 
-Cross-platform clear screen and console output
+### Prerequisites
 
-Easy to extend with new stress test methods
+- Python 3.8 or higher
+- pip package manager
 
-#Installation
-Clone the repository:
+### Setup
 
-
+```bash
 git clone https://github.com/yourusername/pulsestrike.git
 cd pulsestrike
-Install required Python dependencies:
-
-
 pip install -r requirements.txt
 
-Run the tool:
-
-python pulse.py
-
 #Usage
-Launch the tool: python pulse.py
-Enter the target URL you want to test.
-Select the stress test method from the list.
-Set the delay between requests (in seconds).
-Watch the real-time log and stats as your test runs.
-Use CTRL+C to stop the test.
+Run the tool:
+python pulse.py
+Enter the target URL when prompted.
 
+Choose the attack method from the displayed list.
 
-#Stress Test Methods
+Specify the delay between requests (seconds).
+
+Monitor the real-time logs and bandwidth usage.
+
+Press CTRL+C to stop the test.
+
+#Available Stress Test Methods
 GET — Basic HTTP GET flood
 
-POST — HTTP POST flood with random data
+POST — HTTP POST flood with randomized data
 
-HEADERS — Flood with randomized headers
+HEADERS — Flood using randomized HTTP headers
 
-Add your custom methods in stress_methods.py
+Extendable via stress_methods.py.
 
 Contributing
-Contributions and new stress test methods are welcome! Please open an issue or pull request.
+Contributions are welcome! Feel free to:
+
+Open issues for bugs or feature requests
+
+Submit pull requests for new methods or improvements
+
+Suggest UI/UX enhancements
+
+Please adhere to the code of conduct.
 
 Disclaimer
-This tool is for authorized testing and educational purposes only. The author is not responsible for any misuse or damage caused.
+This tool is intended strictly for authorized testing and educational purposes. Misuse on unauthorized targets is illegal. The author holds no responsibility for damage or legal issues caused by improper use.
 
 Contact
-For questions or help, reach out on:
 
 Discord: suicixde
 
 GitHub: xdrew87
 
-Enjoy testing safely! 🚀
+#Screenshots
+
+License
+GNU License © 2025 Suicixde
