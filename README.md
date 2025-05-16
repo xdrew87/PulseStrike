@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## 🛠️ Usage
 
 Run the tool:
-
+```
 ```
 python pulse.py
 
@@ -68,9 +68,6 @@ You can add your own by modifying `stress_methods.py`.
 ![Screenshot_From_2025-05-16_04-19-12](https://github.com/user-attachments/assets/c3e6b76c-1a02-4017-a52b-3210ef0c1cf1)
 ```
 ```
-```
-```
-
 ---
 
 ## 🤝 Contributing
