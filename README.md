@@ -60,18 +60,7 @@ Then follow the prompts:
 
 You can add your own by modifying `stress_methods.py`.
 ```
----
-```
-## 📂 Project Structure
-```
-pulsestrike/
-├── pulse.py               # Main launcher
-├── stress_methods.py      # Stress methods logic
-├── utils.py               # UI and logging functions
-├── requirements.txt       # Python dependencies
-└── README.md              # You're reading this!
-```
-```
+
 ```
 ```
 
