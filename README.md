@@ -59,11 +59,10 @@ Then follow the prompts:
 - HEADERS — Flood using randomized HTTP headers  
 
 You can add your own by modifying `stress_methods.py`.
-
+```
 ---
-
+```
 ## 📂 Project Structure
-
 ```
 pulsestrike/
 ├── pulse.py               # Main launcher
@@ -72,8 +71,8 @@ pulsestrike/
 ├── requirements.txt       # Python dependencies
 └── README.md              # You're reading this!
 ```
-
----
+```
+```
 ```
 
 ## 📸 Screenshots
