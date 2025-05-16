@@ -1,88 +1,114 @@
 # PulseStrike - Lightweight C2 Stress Testing Tool
 
-![PulseStrike Banner](https://img.shields.io/badge/PulseStrike-C2%20Stress%20Tool-green)
+![PulseStrike](https://img.shields.io/badge/PulseStrike-C2%20Stress%20Tool-green)
 
-## Overview
+PulseStrike is a lightweight and interactive Command & Control (C2)-style tool used for stress testing websites and services. It includes a hacker-themed UI and multiple HTTP-based test methods to help you determine how your site performs under heavy traffic or simulated attack conditions.
 
-PulseStrike is a simple yet powerful Command & Control (C2) tool designed for stress testing your websites and servers. Easily simulate various attack methods to test your defenses and evaluate your infrastructure's resilience.
-
-This tool enables you to:
-
-- Launch multiple HTTP stress tests against a target URL
-- Monitor requests and bandwidth usage in real-time via a sleek terminal UI
-- Quickly configure targets, methods, and delays from the interactive console
-
-> **Disclaimer:** Use PulseStrike only on servers and websites you own or have explicit permission to test. Unauthorized use is illegal and unethical.
+> ⚠️ This tool is for educational and authorized testing purposes only. Do not use it on servers or systems you do not own or have explicit permission to test.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Multiple stress test methods (GET, POST, headers flooding, etc.)
-- Real-time request log with bandwidth statistics
-- Animated ASCII art banner and hacker-style terminal UI
-- Cross-platform compatibility (Windows, Linux, macOS)
-- Easy extensibility for custom attack methods
+- Terminal interface with animated ASCII banner  
+- Real-time logs, bandwidth monitoring, and request counters  
+- Interactive prompts — no need to type commands manually  
+- Multiple built-in stress test methods  
+- Easily extendable — add your own methods in `stress_methods.py`  
+- Cross-platform compatible (Windows, Linux, macOS)
 
 ---
 
-## Installation
+## 💻 Installation
 
-### Prerequisites
+Make sure you have Python 3.8+ installed.
 
-- Python 3.8 or higher
-- pip package manager
+Clone the repository and install the required dependencies:
 
-### Setup
-
-```bash
-git clone https://github.com/yourusername/pulsestrike.git
+```
+git clone https://github.com/xdrew87/pulsestrike.git
 cd pulsestrike
 pip install -r requirements.txt
+```
 
-#Usage
+---
+
+## 🛠️ Usage
+
 Run the tool:
+
+```
 python pulse.py
-Enter the target URL when prompted.
+```
 
-Choose the attack method from the displayed list.
+Then follow the prompts:
 
-Specify the delay between requests (seconds).
+- Enter the target URL (e.g. https://example.com)  
+- Choose the attack method  
+- Specify delay between requests  
+- Watch live logs and bandwidth usage  
+- Press CTRL+C to stop the test
 
-Monitor the real-time logs and bandwidth usage.
+---
 
-Press CTRL+C to stop the test.
+## 📦 Available Stress Test Methods
 
-#Available Stress Test Methods
-GET — Basic HTTP GET flood
+- GET — Basic HTTP GET flood  
+- POST — HTTP POST flood with randomized data  
+- HEADERS — Flood using randomized HTTP headers  
 
-POST — HTTP POST flood with randomized data
+You can add your own by modifying `stress_methods.py`.
 
-HEADERS — Flood using randomized HTTP headers
+---
 
-Extendable via stress_methods.py.
+## 📂 Project Structure
 
-Contributing
+```
+pulsestrike/
+├── pulse.py               # Main launcher
+├── stress_methods.py      # Stress methods logic
+├── utils.py               # UI and logging functions
+├── requirements.txt       # Python dependencies
+└── README.md              # You're reading this!
+```
+
+---
+
+## 📸 Screenshots
+
+(Insert your terminal screenshot here)
+
+```
+![PulseStrike UI](screenshot.png)
+```
+
+---
+
+## 🤝 Contributing
+
 Contributions are welcome! Feel free to:
 
-Open issues for bugs or feature requests
+- Open issues for bugs or feature requests  
+- Submit pull requests for new methods or improvements  
+- Suggest UI/UX enhancements  
 
-Submit pull requests for new methods or improvements
+Please follow standard GitHub etiquette and code of conduct.
 
-Suggest UI/UX enhancements
+---
 
-Please adhere to the code of conduct.
+## ⚠️ Disclaimer
 
-Disclaimer
-This tool is intended strictly for authorized testing and educational purposes. Misuse on unauthorized targets is illegal. The author holds no responsibility for damage or legal issues caused by improper use.
+This tool is intended strictly for authorized testing and educational use. Misuse on unauthorized targets is illegal. The author assumes no responsibility for damage or legal consequences caused by improper usage.
 
-Contact
+---
 
-Discord: suicixde
+## 📬 Contact
 
-GitHub: xdrew87
+- Discord: suicixde  
+- GitHub: [xdrew87](https://github.com/xdrew87)
 
-#Screenshots
+---
 
-License
+## 🪪 License
+
 GNU License © 2025 Suicixde
