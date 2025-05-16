@@ -5,7 +5,7 @@ PulseStrike is a lightweight and ethical HTTP stress-testing tool used to evalua
 🛡️ For authorized use only!
 
 ## Usage
-python3 pulse.py -u https://yoursite.com -m GET -t 10 -d 1.0
+python3 pulse.py 
 
 Options:
 - -u / --url      Target URL
@@ -14,4 +14,4 @@ Options:
 - -d / --delay    Delay between requests (seconds)
 
 ## License
-MIT
+GNU
