@@ -59,8 +59,8 @@ Then follow the prompts:
 - HEADERS — Flood using randomized HTTP headers  
 
 You can add your own by modifying `stress_methods.py`.
-```
 
+```
 ```
 ```
 
