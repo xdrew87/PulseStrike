@@ -74,11 +74,12 @@ pulsestrike/
 ```
 
 ---
+```
 
 ## 📸 Screenshots
-
-```
 ![Screenshot_From_2025-05-16_04-19-12](https://github.com/user-attachments/assets/c3e6b76c-1a02-4017-a52b-3210ef0c1cf1)
+```
+```
 ```
 ```
 
