@@ -89,7 +89,7 @@ This tool is intended strictly for authorized testing and educational use. Misus
 
 ## 📬 Contact
 
-- Discord: suicixde  
+- Discord: galmx
 - GitHub: [xdrew87](https://github.com/xdrew87)
 
 ---
